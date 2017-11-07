@@ -3,11 +3,11 @@
 
 - title: Blog
   url: /articles/
-  excerpt: "Examples of long form posts."
+  excerpt: "Blog list."
   image: 400x250.gif
 
 
 - title: About
   url: /about/
-  excerpt: "All about Skinny Bones for Jekyll."
+  excerpt: "All about Onroad tech blog for Liting Wang."
   image: 400x250.gif

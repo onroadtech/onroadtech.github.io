@@ -1,9 +1,9 @@
 ---
 layout: article
 title: "About"
-date: 2014-06-02T09:44:20-04:00
-modified: 2014-08-27T14:56:44-04:00
-excerpt: "This is the Skinny Bones about page."
+date: 2017-11-06T09:44:20-04:00
+modified: 2017-11-6T14:56:44-04:00
+excerpt: "This is about page."
 image:
   feature:
   teaser:
@@ -12,6 +12,8 @@ share: false
 ads: false
 ---
 
-This is a work in progress.
+I am a programmer in Xiamen, China.
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+I am working on Web application and Android application, and record technology document or some project experience on the blog,  If there are some mistake, please contact me as following:
+
+Mail: <onroad_tech@163.com>
