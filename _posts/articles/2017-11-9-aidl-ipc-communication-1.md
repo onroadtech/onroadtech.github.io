@@ -178,5 +178,5 @@ public void onServiceConnected(ComponentName componentName, IBinder iBinder) {
 
 由上面的log可知，Client端已能正确调用Service端的接口，并成功将参数传递给Service端，且Service端也能将结果正确返回给Client.
 
-完整代码可到我的github下载。
-https://github.com/onroadtech/AidlDemo
+完整代码可到我的github下载:
+<https://github.com/onroadtech/AidlDemo>
