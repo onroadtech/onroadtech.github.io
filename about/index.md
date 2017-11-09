@@ -16,13 +16,12 @@ I am a programmer in Xiamen, China.
 
 I am working on Web application and Android application, and record technology document or some project experience on the blog,  If there are some mistake, please contact me as following:
 
-Mail: <onroad_tech@163.com>
+- Mail: <onroad_tech@163.com>
 
 
 
 Link:
 
-[My github](https://github.com/onroadtech)
-
-[My csdn blog](http://blog.csdn.net/ltwang_tech)
+- [My github](https://github.com/onroadtech)
+- [My csdn blog](http://blog.csdn.net/ltwang_tech)
 
