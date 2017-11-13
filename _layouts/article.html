@@ -32,4 +32,18 @@ layout: default
 		</div><!-- /.inner-wrap -->
 		{% if page.ads == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
 	</article><!-- ./wrap -->
+	<div id="gitmentContainer"></div>
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script>
+	var gitment = new Gitment({
+	    owner: 'onroadtech',
+	    repo: 'github.com/onroadtech/onroadtech.github.io',
+	    oauth: {
+	        client_id: 'ec0e22affe766b426dcb',
+	        client_secret: '03c40116e2f3236cfd0e3513da133263e6e1a4ea',
+	    },
+	});
+	gitment.render('gitmentContainer');
+	</script>
 </div><!-- /#main -->
