@@ -9,7 +9,7 @@ image:
   feature:
   teaser:
   thumb:
-date: 2017-11-9T10:45:14-13:00
+date: 2017-11-9T10:45:00
 ---
 
 
