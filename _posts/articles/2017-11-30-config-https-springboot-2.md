@@ -2,7 +2,7 @@
 layout: article
 title: "Spring Boot之HTTPS配置"
 modified:
-categories: articles
+categories: SpringBoot
 excerpt: "构建Spring Boot web 项目(二)."
 tags: []
 image:

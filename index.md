@@ -8,7 +8,7 @@ image:
 <h2 class="post-title">Latest Posts</h2>
 <div class="tiles">
 {% for post in site.posts limit:4 %}
-	{% include post-grid.html %}
+	{% include post-grid2.html %}
 {% endfor %}
 </div><!-- /.tiles -->
 

@@ -2,7 +2,7 @@
 layout: article
 title: "跨进程间如何进行AIDL IPC 通信（四）"
 modified:
-categories: articles
+categories: Android
 excerpt: "如何使用AIDL打成jar包供第三方app调用."
 tags: []
 image:

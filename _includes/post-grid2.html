@@ -1,0 +1,17 @@
+<article class="tile" itemscope itemtype="http://schema.org/Article">
+  <h2 class="post-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="post-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+  <p class="repo-list-meta">
+	{% if post.date %}
+	<span class="meta-info">
+	  <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d" }}
+	</span>
+	{% endif %}
+	{% for cat in post.categories %}
+	<span class="meta-info">
+	  <span class="octicon octicon-file-directory"></span>
+	  <a href="{{ site.url }}/articles/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
+	</span>
+	{% endfor %}
+  </p>
+</article><!-- /.tile -->

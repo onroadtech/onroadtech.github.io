@@ -2,7 +2,7 @@
 layout: article
 title: "跨进程间如何进行AIDL IPC 通信（二）"
 modified:
-categories: articles
+categories: Android
 excerpt: "如何使用AIDL传递一个复杂自定义类型数据."
 tags: []
 image:

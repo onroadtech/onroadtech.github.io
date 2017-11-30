@@ -2,7 +2,7 @@
 layout: article
 title: "跨进程间如何进行AIDL IPC 通信（一）"
 modified:
-categories: articles
+categories: Android
 excerpt: "AIDL是Android跨进程间的一种非常重要的IPC通信机制."
 tags: []
 image:
