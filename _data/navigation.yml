@@ -1,9 +1,14 @@
 # Site navigation links
 
-
 - title: Blog
   url: /articles/
-  excerpt: "Blog list."
+  excerpt: "All Posted Blog List."
+  image: 400x250.gif
+
+
+- title: Categories
+  url: /categories/
+  excerpt: "Blog categories."
   image: 400x250.gif
 
 
