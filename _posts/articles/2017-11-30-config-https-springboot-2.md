@@ -207,6 +207,34 @@ OK，这样配置完成之后我们就可以通过HTTPS来访问我们的Web了.
 
 其中 keystoreFile="${user.home}/keystore.p12"为SSL证书的路径，keystorePass="123456"为你证书的密码。
 
+以上为Tomcat8.0的配置。
+Tomcat9.0跟Tomcat8.0有点不太一样，但原理是一样的，将
+
+```
+<!--
+<Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+           maxThreads="150" SSLEnabled="true">
+    <SSLHostConfig>
+        <Certificate certificateKeystoreFile="conf/localhost-rsa.jks"
+                     type="RSA" />
+    </SSLHostConfig>
+</Connector>
+-->
+```
+去掉注释并修改为：
+```
+<Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+               maxThreads="150" SSLEnabled="true">
+    <SSLHostConfig>
+        <Certificate certificateKeystoreFile="conf/keystore.p12"
+        			 certificateKeystorePassword="123456"
+        			 certificateKeyAlias="tomcat"
+                     type="RSA" />
+    </SSLHostConfig>
+</Connector>
+```
+其实也就是换了个表达形式而已，换汤不换药。具体可参考TOMCAT9.0的官方配置文档<http://tomcat.apache.org/tomcat-9.0-doc/ssl-howto.html>。
+
 重启Tomcat Service，如果有看到输出Starting ProtocolHandler ["http-nio-8443"]的log信息，则说明配置成功
 
 ![image](http://www.onroad.tech/images/20171130/02.png)
