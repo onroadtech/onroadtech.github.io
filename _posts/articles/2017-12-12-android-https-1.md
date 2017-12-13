@@ -129,44 +129,39 @@ keytool -export -alias server -file E:/ssl/server.cer -keystore E:/ssl/server.p1
 首先把第一节生成的server.cer放到assets文件夹下，其实你可以随便放哪，反正能读取到就行，然后在OkHttpClientManager里面添加如下的方法：
 
 ```java
-public void setCertificates(InputStream... certificates)
-{
-  try
-  {
+/******************************
+ *  单向认证
+******************************/
+public void setOneWayCertificates(InputStream... certificates){
+  try{
     CertificateFactory certificateFactory = CertificateFactory.getInstance("X.509");
     KeyStore keyStore = KeyStore.getInstance(KeyStore.getDefaultType());
     keyStore.load(null);
     int index = 0;
-    for (InputStream certificate : certificates)
-    {
+    for (InputStream certificate : certificates){
       String certificateAlias = Integer.toString(index++);
       keyStore.setCertificateEntry(certificateAlias, certificateFactory.generateCertificate(certificate));
 
-      try
-      {
+      try{
         if (certificate != null)
           certificate.close();
-      } catch (IOException e)
-      {
+      } catch (IOException e){
+        Log.e("OkHttpClientManager", e.getMessage());
       }
     }
 
     SSLContext sslContext = SSLContext.getInstance("TLS");
-
     TrustManagerFactory trustManagerFactory =
       TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
 
     trustManagerFactory.init(keyStore);
-    sslContext.init
-      (
+    sslContext.init(
       null,
       trustManagerFactory.getTrustManagers(),
-      new SecureRandom()
-    );
+      new SecureRandom());
     mOkHttpClient.setSslSocketFactory(sslContext.getSocketFactory());
-  } catch (Exception e)
-  {
-    e.printStackTrace();
+  } catch (Exception e){
+    Log.e("OkHttpClientManager", e.getMessage());
   }
 }
 ```
@@ -188,12 +183,11 @@ public class Android4HttpsApplication extends Application{
     @Override
     public void onCreate() {
         super.onCreate();
-        try
-        {
+        try {
+            //单向认证
             OkHttpClientManager.getInstance()
-                    .setCertificates(getAssets().open("server.cer"));
-        } catch (IOException e)
-        {
+                    .setOneWayCertificates(getAssets().open("server.cer"));
+        } catch (IOException e){
             e.printStackTrace();
         }
     }
@@ -204,8 +198,7 @@ public class Android4HttpsApplication extends Application{
 
 ```java
 private void postTest() {
-    OkHttpClientManager.getAsyn("https://192.168.0.101:8443/SpringBootBase/", new OkHttpClientManager.ResultCallback<String>()
-    {
+    OkHttpClientManager.getAsyn("https://192.168.0.101:8443/SpringBootBase/", new OkHttpClientManager.ResultCallback<String>() {
 
         @Override
         public void onError(com.squareup.okhttp.Request request, Exception e) {
@@ -213,8 +206,7 @@ private void postTest() {
         }
 
         @Override
-        public void onResponse(String u)
-        {
+        public void onResponse(String u) {
             Log.d(TAG,"Response is " + u);
         }
     });
