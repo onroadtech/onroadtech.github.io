@@ -20,8 +20,9 @@ I am working on Web application and Android application, and record technology d
 
 
 
-Link:
+My personal Link:
 
-- [My github](https://github.com/onroadtech)
-- [My csdn blog](http://blog.csdn.net/ltwang_tech)
+- [Github](https://github.com/onroadtech)
+- [CSDN](http://blog.csdn.net/ltwang_tech)
+- [简书](http://www.jianshu.com/u/bff702394bcf)
 
