@@ -33,7 +33,7 @@ interface IAidlJarTest {
 
 ## 3. 添加引用module编译
 在app module的build.gradle文件dependencies中添加一行compile project(':aidljar')，使得app module依赖我们的AidlJar module。
-```
+```groovy
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'

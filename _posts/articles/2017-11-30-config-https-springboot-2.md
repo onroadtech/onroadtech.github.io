@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "Spring Boot之HTTPS配置"
+title: "Spring boot（二）：HTTPS之自签名证书配置"
 modified:
 categories: SpringBoot
-excerpt: "构建Spring Boot web 项目(二)."
+excerpt: "构建Spring Boot Web Apps 项目（二）"
 tags: []
 image:
   feature:

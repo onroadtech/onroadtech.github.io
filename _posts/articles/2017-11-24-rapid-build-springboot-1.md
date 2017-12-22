@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "快速构建Spring Boot 1.5.8 maven Web 项目"
+title: "Spring boot（一）：快速构建Spring Boot 1.5.8 maven Web 项目"
 modified:
 categories: SpringBoot
-excerpt: "构建Spring Boot web 项目(一)"
+excerpt: "构建Spring Boot Web Apps 项目（一）"
 tags: []
 image:
   feature:
