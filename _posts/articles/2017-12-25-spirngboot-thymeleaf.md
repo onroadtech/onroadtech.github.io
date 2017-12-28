@@ -170,7 +170,7 @@ spring.thymeleaf.cache: false
 
 > 完整代码可到我的github下载:
 >
-> https://github.com/onroadtech/SpringbootBase/
+> [https://github.com/onroadtech/SpringbootBase/](https://github.com/onroadtech/SpringbootBase/)
 >
 > tag: [spring_boot_thymeleaf](https://github.com/onroadtech/SpringbootBase/tree/spring_boot_thymeleaf)
 >

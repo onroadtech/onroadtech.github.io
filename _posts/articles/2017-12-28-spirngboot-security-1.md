@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Spring Boot（五）：Spring Boot 集成 Spring Security 一"
+title: "Spring Boot（五）：Spring Boot 集成 Spring Security (I)"
 modified:
 categories: SpringBoot
 excerpt: "构建Spring Boot Web Apps 项目（五）"
@@ -224,6 +224,6 @@ auth.inMemoryAuthentication()
 ----
 
 > 完整代码可到我的github下载:
-> https://github.com/onroadtech/SpringbootBase/
+> [https://github.com/onroadtech/SpringbootBase/](https://github.com/onroadtech/SpringbootBase/)
 > branch: master
 > commit-id: [2872ee008f23197b5fa28acee95aae378d4d1f01](https://github.com/onroadtech/SpringbootBase/tree/2872ee008f23197b5fa28acee95aae378d4d1f01)
