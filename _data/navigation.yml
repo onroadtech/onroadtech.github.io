@@ -12,13 +12,13 @@ main:
   #   url: /sitemap/
   - title: "Blog"
     url: /year-archive/
-  - title: "Topic One"
+  - title: "Spring Boot"
     url: /topic-one-introduce/
-  - title: "Topic Two"
+  - title: "Android"
     url: /topic-two-introduce/
     
 TopicOne:
-  - title: "Topic One"
+  - title: "Spring Boot"
     url: /topic-one-introduce/
     children:
       - title: "Article One"
@@ -27,7 +27,7 @@ TopicOne:
         url: /topic-one-article-two/
  
 TopicTwo:
-  - title: "Topic Two"
+  - title: "Android"
     url: /topic-two-introduce/
     children:
       - title: "Article One"
