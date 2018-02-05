@@ -15,7 +15,7 @@ main:
   - title: "Spring Boot"
     url: /topic-one-introduce/
   - title: "Android"
-    url: /topic-two-introduce/
+    url: /android-topic-introduce/
     
 TopicOne:
   - title: "Spring Boot"
@@ -26,11 +26,11 @@ TopicOne:
       - title: "Article Two"
         url: /topic-one-article-two/
  
-TopicTwo:
+Android:
   - title: "Android"
-    url: /topic-two-introduce/
+    url: /android-topic-introduce/
     children:
-      - title: "Article One"
-        url: /topic-two-article-one/
-      - title: "Article Two"
-        url: /topic-two-article-two/    
+      - title: "Android AIDL IPC communicat I"
+        url: /android-topic-aidl-ipc-communication-1/
+      - title: "Android AIDL IPC communicat II"
+        url: /android-topic-aidl-ipc-communication-2/    
