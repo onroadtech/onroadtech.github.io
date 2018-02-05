@@ -12,7 +12,7 @@ date: 2017-11-10
 
 
 
-在上一篇博客[《跨进程间如何进行AIDL IPC 通信（一）》](http://www.onroad.tech/articles/aidl-ipc-communication-1/)中，我们只介绍了基本类型参数的AIDL IPC通信，如果想传递一个复杂的类型，那该如何处理呢，幸好Android支持AIDL传递自定义类型，今天我们将着重介绍自定义类型如何在不同的进程间进行传递。
+在上一篇博客[《跨进程间如何进行AIDL IPC 通信（一）》](http://www.onroad.tech/android-topic-aidl-ipc-communication-1/)中，我们只介绍了基本类型参数的AIDL IPC通信，如果想传递一个复杂的类型，那该如何处理呢，幸好Android支持AIDL传递自定义类型，今天我们将着重介绍自定义类型如何在不同的进程间进行传递。
 ## 1. Service端
 ### a) 创建一个自定义类
 创建一个自定义对象，咱们还是以Person为例，该对象必须完成以下动作：
