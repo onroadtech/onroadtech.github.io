@@ -356,6 +356,7 @@ zh: &DEFAULT_ZH_HANS
   Android AIDL IPC communicat I                : "跨进程间如何进行AIDL IPC 通信（一）"
   Android AIDL IPC communicat II               : "跨进程间如何进行AIDL IPC 通信（二）"
   Android AIDL IPC communicat III              : "跨进程间如何进行AIDL IPC 通信（三）"
+  Android AIDL IPC communicat IV               : "跨进程间如何进行AIDL IPC 通信（四）"
 zh-CN:
   <<: *DEFAULT_ZH_HANS
 zh-SG:
