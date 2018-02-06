@@ -31,6 +31,8 @@ SpringBoot:
         url: /spring-boot-topic-thymeleaf/
       - title: "Integrate Spring Security I"
         url: /spring-boot-topic-security-1/
+      - title: "Integrate Hibernate"
+        url: /spring-boot-topic-hibernate/
  
 Android:
   - title: "Android"

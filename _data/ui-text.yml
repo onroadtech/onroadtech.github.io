@@ -365,6 +365,7 @@ zh: &DEFAULT_ZH_HANS
   RequestMapping between form and POJO         : "Spring boot（三）：@RequestMapping之Form表单参数传递及POJO绑定实例讲解"
   Integrate thymeleaf                          : "Spring Boot（四）：Spring Boot 集成 Thymeleaf"
   Integrate Spring Security I                  : "Spring Boot（五）：Spring Boot 集成 Spring Security (I)"
+  Integrate Hibernate                          : "Spring Boot（六）：Spring Boot 集成 hibernate & JPA"
 zh-CN:
   <<: *DEFAULT_ZH_HANS
 zh-SG:
