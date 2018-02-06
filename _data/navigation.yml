@@ -37,4 +37,10 @@ Android:
       - title: "Android AIDL IPC communicat III"
         url: /android-topic-aidl-ipc-communication-3/    
       - title: "Android AIDL IPC communicat IV"
-        url: /android-topic-aidl-ipc-communication-4/    
+        url: /android-topic-aidl-ipc-communication-4/
+      - title: "Config Https for Android I"
+        url: /android-topic-https-android-1/    
+      - title: "Config Https for Android II"
+        url: /android-topic-https-android-2/    
+      - title: "Config Https for Android III"
+        url: /android-topic-https-android-3/    

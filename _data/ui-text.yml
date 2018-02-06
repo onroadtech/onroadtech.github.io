@@ -359,6 +359,9 @@ zh: &DEFAULT_ZH_HANS
   Android AIDL IPC communicat IV               : "跨进程间如何进行AIDL IPC 通信（四）"
   Rapid Build Spring Boot Project              : "Spring boot（一）：快速构建Spring Boot 1.5.8 maven Web 项目"
   Config Https for Spring Boot                 : "Spring boot（二）：HTTPS之自签名证书配置"
+  Config Https for Android I                   : "Android HTTPS之自签名证书认证（一）"
+  Config Https for Android II                  : "Android HTTPS之自签名证书认证（二）"
+  Config Https for Android III                 : "Android HTTPS之自签名证书认证（三）"
 zh-CN:
   <<: *DEFAULT_ZH_HANS
 zh-SG:
