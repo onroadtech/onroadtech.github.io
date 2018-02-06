@@ -25,6 +25,8 @@ SpringBoot:
         url: /spring-boot-topic-rapid-build-spring-boot/
       - title: "Config Https for Spring Boot"
         url: /spring-boot-topic-config-https-spring-boot/
+      - title: "RequestMapping between form and POJO"
+        url: /spring-boot-topic-request-mapping/
  
 Android:
   - title: "Android"
