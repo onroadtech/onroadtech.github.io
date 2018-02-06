@@ -13,18 +13,18 @@ main:
   - title: "Blog"
     url: /year-archive/
   - title: "Spring Boot"
-    url: /topic-one-introduce/
+    url: /spring-boot-topic-introduce/
   - title: "Android"
     url: /android-topic-introduce/
     
-TopicOne:
+SpringBoot:
   - title: "Spring Boot"
-    url: /topic-one-introduce/
+    url: /spring-boot-topic-introduce/
     children:
-      - title: "Article One"
-        url: /topic-one-article-one/
-      - title: "Article Two"
-        url: /topic-one-article-two/
+      - title: "Rapid Build Spring Boot Project"
+        url: /spring-boot-topic-rapid-build-spring-boot/
+      - title: "Config Https for Spring Boot"
+        url: /spring-boot-topic-config-https-spring-boot/
  
 Android:
   - title: "Android"
