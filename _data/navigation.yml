@@ -29,6 +29,8 @@ SpringBoot:
         url: /spring-boot-topic-request-mapping/
       - title: "Integrate thymeleaf"
         url: /spring-boot-topic-thymeleaf/
+      - title: "Integrate Spring Security I"
+        url: /spring-boot-topic-security-1/
  
 Android:
   - title: "Android"
