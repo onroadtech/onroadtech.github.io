@@ -27,6 +27,8 @@ SpringBoot:
         url: /spring-boot-topic-config-https-spring-boot/
       - title: "RequestMapping between form and POJO"
         url: /spring-boot-topic-request-mapping/
+      - title: "Integrate thymeleaf"
+        url: /spring-boot-topic-thymeleaf/
  
 Android:
   - title: "Android"
